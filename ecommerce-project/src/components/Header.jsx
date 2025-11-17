@@ -7,7 +7,6 @@ const Header = ({cart}) => {
 
   cart.forEach((cartItem) => {
     totalQuantity += cartItem.quantity
-
   })
   return (
     <>
